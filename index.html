@@ -622,11 +622,8 @@
             mapsUrl: 'https://www.google.com/maps/place/Wisma+ali+sudin/@-1.4929591,102.1160303,17z/data=!3m1!4b1!4m6!3m5!1s0x2e2e9f535bc9a033:0xb89838d7c1f0659d!8m2!3d-1.4929645!4d102.1186052!16s%2Fg%2F11j8zxh_h1?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D'
         };
 
-        // Default Sample Wishes
-        let sampleWishes = [
-            { name: "H. Dedy Putra, S.H., M.Kn.", instansi: "Bupati Bungo", status: "Hadir", wish: "Selamat dan sukses atas Pelantikan Pengurus PWI Kabupaten Bungo & Tebo Masa Bakti 2026-2029. Semoga pers semakin profesional dan bersinergi membangun daerah!" },
-            { name: "Dinas Kominfo Bungo", instansi: "Pemerintah Daerah", status: "Hadir", wish: "Selamat atas pelantikan pengurus PWI. Semoga kemitraan strategis dengan insan pers semakin kokoh." }
-        ];
+        // Default Sample Wishes (Dikosongkan sesuai permintaan)
+        let sampleWishes = [];
 
         // Check Guest Name from URL parameter (?to=Nama+Tamu)
         function checkGuestName() {
@@ -737,6 +734,15 @@
             const container = document.getElementById('wishesContainer');
             document.getElementById('wishCount').textContent = sampleWishes.length;
             container.innerHTML = '';
+
+            if (sampleWishes.length === 0) {
+                container.innerHTML = `
+                    <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800 text-center text-xs text-slate-400 italic">
+                        Belum ada ucapan selamat. Kirimkan ucapan dan konfirmasi kehadiran Anda melalui form di samping!
+                    </div>
+                `;
+                return;
+            }
 
             sampleWishes.forEach(item => {
                 const card = document.createElement('div');
