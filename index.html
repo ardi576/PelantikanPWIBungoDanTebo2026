@@ -160,12 +160,6 @@
             </a>
         </nav>
 
-        <!-- Floating Parameter Customizer Button -->
-        <button id="openEditorBtn" title="Ubah Parameter Undangan" class="fixed top-6 right-6 z-40 bg-amber-500 text-slate-900 p-3.5 rounded-full shadow-2xl hover:scale-110 transition-transform font-bold flex items-center justify-center gap-2 border-2 border-amber-200">
-            <i class="fa-solid fa-gear text-lg"></i>
-            <span class="text-xs font-bold hidden md:inline">Edit Data</span>
-        </button>
-
         <!-- HERO / BANNER SECTION -->
         <section class="relative min-h-screen flex flex-col justify-center items-center text-center p-6 bg-cover bg-center border-b border-amber-500/20" style="background-image: linear-gradient(to bottom, rgba(6, 22, 38, 0.88), rgba(2, 6, 23, 0.98)), url('https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1600&q=80');">
             <div class="max-w-4xl mx-auto space-y-6 pt-12">
@@ -368,53 +362,168 @@
             </div>
 
             <div class="space-y-4">
-                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-center gap-4 hover:border-amber-500/40 transition-colors">
-                    <div class="px-3 py-2 rounded-xl bg-slate-800 text-amber-400 font-bold text-xs shrink-0 border border-slate-700">
-                        08.30 - 09.00
+                <!-- Agenda 1 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        01
                     </div>
-                    <div>
-                        <h4 class="font-bold text-white text-sm">Registrasi Tamu Undangan & Insan Pers</h4>
-                        <p class="text-xs text-slate-400">Penyambutan tamu Forkopimda dan pengisian buku tamu.</p>
-                    </div>
-                </div>
-
-                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-center gap-4 hover:border-amber-500/40 transition-colors">
-                    <div class="px-3 py-2 rounded-xl bg-slate-800 text-amber-400 font-bold text-xs shrink-0 border border-slate-700">
-                        09.00 - 09.30
-                    </div>
-                    <div>
-                        <h4 class="font-bold text-white text-sm">Pembukaan & Lagu Kebangsaan</h4>
-                        <p class="text-xs text-slate-400">Menyanyikan lagu Indonesia Raya & Mars PWI.</p>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Pembukaan</h4>
                     </div>
                 </div>
 
-                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-center gap-4 hover:border-amber-500/40 transition-colors">
-                    <div class="px-3 py-2 rounded-xl bg-slate-800 text-amber-400 font-bold text-xs shrink-0 border border-slate-700">
-                        09.30 - 10.30
+                <!-- Agenda 2 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        02
                     </div>
-                    <div>
-                        <h4 class="font-bold text-white text-sm">Prosesi Pelantikan Pengurus PWI Bungo & Tebo</h4>
-                        <p class="text-xs text-slate-400">Pembacaan SK, Pengucapan Janji Pengurus, dan Penyerahan Pataka PWI.</p>
-                    </div>
-                </div>
-
-                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-center gap-4 hover:border-amber-500/40 transition-colors">
-                    <div class="px-3 py-2 rounded-xl bg-slate-800 text-amber-400 font-bold text-xs shrink-0 border border-slate-700">
-                        10.30 - 11.30
-                    </div>
-                    <div>
-                        <h4 class="font-bold text-white text-sm">Sambutan & Arahan Kepemimpinan</h4>
-                        <p class="text-xs text-slate-400">Sambutan Ketua PWI Terpilih, Ketua PWI Provinsi Jambi, dan Bupati Bungo/Tebo.</p>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Pembacaan Doa</h4>
                     </div>
                 </div>
 
-                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-center gap-4 hover:border-amber-500/40 transition-colors">
-                    <div class="px-3 py-2 rounded-xl bg-slate-800 text-amber-400 font-bold text-xs shrink-0 border border-slate-700">
-                        11.30 - Selesai
+                <!-- Agenda 3 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        03
                     </div>
-                    <div>
-                        <h4 class="font-bold text-white text-sm">Doa, Foto Bersama & Ramah Tamah</h4>
-                        <p class="text-xs text-slate-400">Pemberian ucapan selamat dan santap siang bersama.</p>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Lagu Indonesia Raya</h4>
+                    </div>
+                </div>
+
+                <!-- Agenda 4 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        04
+                    </div>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Mars PWI</h4>
+                    </div>
+                </div>
+
+                <!-- Agenda 5 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        05
+                    </div>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Pembacaan Surat Keputusan Pelantikan</h4>
+                        <p class="text-xs text-slate-400 mt-1">Pembacaan Surat Keputusan Pelantikan Ketua dan Pengurus PWI Kabupaten Bungo Masa Bakti 2026-2029 oleh Sekretaris PWI Provinsi Jambi, <strong>Drs. Arwani</strong>.</p>
+                    </div>
+                </div>
+
+                <!-- Agenda 6 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-3 hover:border-amber-500/40 transition-colors">
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-400 text-amber-300 font-bold flex items-center justify-center shrink-0 text-sm">
+                            06
+                        </div>
+                        <div class="pt-1">
+                            <h4 class="font-bold text-white text-sm md:text-base">Prosesi Pelantikan Ketua dan Pengurus PWI Kabupaten Bungo Masa Bakti 2026-2029</h4>
+                            <p class="text-xs text-slate-400 mt-1">Pelantikan dipimpin langsung oleh Ketua PWI Provinsi Jambi, <strong>H.R. Ridwan Agus Depi</strong>.</p>
+                        </div>
+                    </div>
+
+                    <!-- Sub-items A, B, C -->
+                    <div class="ml-2 md:ml-14 pl-3 md:pl-4 border-l-2 border-amber-500/40 space-y-2 text-xs md:text-sm text-slate-300">
+                        <div class="p-3 rounded-xl bg-slate-950/80 border border-slate-800">
+                            <span class="font-bold text-amber-400 mr-1.5">A.</span> Penyerahan Pataka PWI dari Ketua PWI Provinsi Jambi, <strong>H.R. Ridwan Agus Depi</strong> kepada Ketua PWI Kabupaten Bungo Masa Bakti 2026-2029, <strong>Arief Budhiman Sudrajat</strong>.
+                        </div>
+                        <div class="p-3 rounded-xl bg-slate-950/80 border border-slate-800">
+                            <span class="font-bold text-amber-400 mr-1.5">B.</span> Penyerahan PIN PWI dari Ketua PWI Provinsi Jambi, <strong>H.R. Ridwan Agus Depi</strong> kepada Ketua PWI Kabupaten Bungo Masa Bakti 2026-2029, <strong>Arief Budhiman Sudrajat</strong>.
+                        </div>
+                        <div class="p-3 rounded-xl bg-slate-950/80 border border-slate-800">
+                            <span class="font-bold text-amber-400 mr-1.5">C.</span> Penandatanganan Berita Acara Pelantikan Ketua PWI Kabupaten Bungo Masa Bakti 2026-2029 serta disaksikan oleh Bupati Bungo, <strong>H. Dedi Putra, S.H., M.Kn</strong> dan Pejabat Lainnya.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agenda 7 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        07
+                    </div>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Penyerahan Piagam Penghargaan</h4>
+                        <p class="text-xs text-slate-400 mt-1">Penyerahan Piagam Penghargaan dari Ketua PWI Provinsi Jambi, <strong>H.R. Ridwan Agus Depi</strong> kepada Bupati Bungo, <strong>H. Dedi Putra, S.H., M.Kn</strong> dan Bupati Tebo, <strong>Agus Rubiyanto, S.E., M.M.</strong></p>
+                    </div>
+                </div>
+
+                <!-- Agenda 8 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        08
+                    </div>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Ucapan Selamat</h4>
+                        <p class="text-xs text-slate-400 mt-1">Ucapan selamat kepada Ketua dan Pengurus PWI Kabupaten Bungo Masa Bakti 2026-2029.</p>
+                    </div>
+                </div>
+
+                <!-- Agenda 9 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        09
+                    </div>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Foto Bersama</h4>
+                        <p class="text-xs text-slate-400 mt-1">Foto bersama Ketua dan Pengurus PWI Kabupaten Bungo Masa Bakti 2026-2029 bersama Bupati Bungo, Ketua PWI Provinsi Jambi beserta Pejabat dan Undangan lainnya.</p>
+                    </div>
+                </div>
+
+                <!-- Agenda 10 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        10
+                    </div>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Laporan Ketua Panitia Pelaksana</h4>
+                        <p class="text-xs text-slate-400 mt-1">Laporan Ketua Panitia Pelaksana Pelantikan Ketua dan Pengurus PWI Kabupaten Bungo Masa Bakti 2026-2029.</p>
+                    </div>
+                </div>
+
+                <!-- Agenda 11 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        11
+                    </div>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Sambutan Ketua PWI Kabupaten Bungo</h4>
+                        <p class="text-xs text-slate-400 mt-1">Sambutan Ketua PWI Kabupaten Bungo Masa Bakti 2026-2029, <strong>Arief Budhiman Sudrajat</strong>.</p>
+                    </div>
+                </div>
+
+                <!-- Agenda 12 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        12
+                    </div>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Sambutan Ketua PWI Provinsi Jambi</h4>
+                        <p class="text-xs text-slate-400 mt-1">Sambutan Ketua PWI Provinsi Jambi, <strong>H.R. Ridwan Agus Depi</strong>.</p>
+                    </div>
+                </div>
+
+                <!-- Agenda 13 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        13
+                    </div>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Sambutan Bupati Bungo</h4>
+                        <p class="text-xs text-slate-400 mt-1">Sambutan Bupati Bungo, <strong>H. Dedi Putra, S.H., M.Kn</strong>.</p>
+                    </div>
+                </div>
+
+                <!-- Agenda 14 -->
+                <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-start gap-4 hover:border-amber-500/40 transition-colors">
+                    <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 font-bold flex items-center justify-center shrink-0 text-sm">
+                        14
+                    </div>
+                    <div class="pt-1">
+                        <h4 class="font-bold text-white text-sm md:text-base">Ramah Tamah</h4>
+                        <p class="text-xs text-slate-400 mt-1">Santap siang bersama dan penutupan acara.</p>
                     </div>
                 </div>
             </div>
@@ -503,56 +612,6 @@
 
     </div>
 
-    <!-- CUSTOMIZER MODAL (For live changing template parameters) -->
-    <div id="editorModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden items-center justify-center p-4 overflow-y-auto">
-        <div class="bg-slate-900 rounded-3xl max-w-2xl w-full p-6 md:p-8 space-y-6 max-h-[90vh] overflow-y-auto shadow-2xl border border-slate-700 text-slate-200">
-            <div class="flex justify-between items-center border-b border-slate-800 pb-4">
-                <div>
-                    <h3 class="font-bold text-xl text-white">Edit Parameter Undangan</h3>
-                    <p class="text-xs text-slate-400">Sesuaikan tanggal, tempat, tema, & link Google Maps</p>
-                </div>
-                <button id="closeEditorBtn" class="text-slate-400 hover:text-white text-xl font-bold">
-                    <i class="fa-solid fa-xmark"></i>
-                </button>
-            </div>
-
-            <form id="paramEditorForm" class="space-y-4 text-xs">
-                
-                <div>
-                    <label class="block font-bold mb-1 text-amber-300">Tema / Slogan Pelantikan</label>
-                    <textarea id="inputTheme" rows="2" class="w-full p-2.5 rounded-lg bg-slate-950 border border-slate-700 text-white"></textarea>
-                </div>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <div>
-                        <label class="block font-bold mb-1 text-amber-300">Hari & Tanggal Acara</label>
-                        <input type="text" id="inputDate" class="w-full p-2.5 rounded-lg bg-slate-950 border border-slate-700 text-white">
-                    </div>
-                    <div>
-                        <label class="block font-bold mb-1 text-amber-300">Waktu Acara</label>
-                        <input type="text" id="inputTime" class="w-full p-2.5 rounded-lg bg-slate-950 border border-slate-700 text-white">
-                    </div>
-                </div>
-
-                <div>
-                    <label class="block font-bold mb-1 text-amber-300">Tempat Pelaksanaan</label>
-                    <input type="text" id="inputVenue" class="w-full p-2.5 rounded-lg bg-slate-950 border border-slate-700 text-white">
-                </div>
-
-                <div>
-                    <label class="block font-bold mb-1 text-amber-300">Link Google Maps</label>
-                    <input type="url" id="inputMaps" class="w-full p-2.5 rounded-lg bg-slate-950 border border-slate-700 text-white">
-                </div>
-
-                <div class="pt-4">
-                    <button type="submit" class="w-full py-3 gold-gradient-bg text-slate-900 font-bold rounded-xl text-sm uppercase tracking-wider">
-                        Simpan Perubahan Data
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-
     <script>
         // --- EVENT DATA STATE INITIALIZATION ---
         const eventData = {
@@ -565,7 +624,7 @@
 
         // Default Sample Wishes
         let sampleWishes = [
-            { name: "H. Mashuri, S.P., M.E.", instansi: "Bupati Bungo", status: "Hadir", wish: "Selamat dan sukses atas Pelantikan Pengurus PWI Kabupaten Bungo & Tebo Masa Bakti 2026-2029. Semoga pers semakin profesional dan bersinergi membangun daerah!" },
+            { name: "H. Dedy Putra, S.H., M.Kn.", instansi: "Bupati Bungo", status: "Hadir", wish: "Selamat dan sukses atas Pelantikan Pengurus PWI Kabupaten Bungo & Tebo Masa Bakti 2026-2029. Semoga pers semakin profesional dan bersinergi membangun daerah!" },
             { name: "Dinas Kominfo Bungo", instansi: "Pemerintah Daerah", status: "Hadir", wish: "Selamat atas pelantikan pengurus PWI. Semoga kemitraan strategis dengan insan pers semakin kokoh." }
         ];
 
@@ -726,33 +785,6 @@
             const calendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${startTime}/${endTime}&details=${details}&location=${location}`;
             window.open(calendarUrl, '_blank');
         }
-
-        // Modal Customizer Listeners
-        const editorModal = document.getElementById('editorModal');
-        document.getElementById('openEditorBtn').addEventListener('click', () => {
-            populateEditorModal();
-            editorModal.classList.remove('hidden');
-            editorModal.classList.add('flex');
-        });
-
-        document.getElementById('closeEditorBtn').addEventListener('click', () => {
-            editorModal.classList.add('hidden');
-            editorModal.classList.remove('flex');
-        });
-
-        document.getElementById('paramEditorForm').addEventListener('submit', (e) => {
-            e.preventDefault();
-            eventData.theme = document.getElementById('inputTheme').value;
-            eventData.date = document.getElementById('inputDate').value;
-            eventData.time = document.getElementById('inputTime').value;
-            eventData.venue = document.getElementById('inputVenue').value;
-            eventData.mapsUrl = document.getElementById('inputMaps').value;
-
-            renderEventData();
-            editorModal.classList.add('hidden');
-            editorModal.classList.remove('flex');
-            showCustomToast('Data acara berhasil diperbarui!');
-        });
 
         // Custom Toast Message Handler
         function showCustomToast(message) {
